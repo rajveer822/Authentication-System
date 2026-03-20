@@ -9,7 +9,7 @@ function Profile() {
     const token = localStorage.getItem("token");
 
     axios
-      .get("http://localhost:5000/profile", {
+      .get("https://authentication-systems.onrender.com/profile", {
         headers: {
           Authorization: "Bearer " + token,   
         },
