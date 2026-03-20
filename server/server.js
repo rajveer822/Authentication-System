@@ -19,8 +19,9 @@ connectDB();
 
 // middleware
 app.use(express.json());
-app.use(cors());
-
+app.use(cors({
+  origin: "https://your-vercel-app.vercel.app"
+}));
 // routes
 app.use("/api/auth", authRoutes);
 
