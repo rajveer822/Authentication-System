@@ -1,0 +1,85 @@
+/* Center page */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef2f7;
+}
+
+/* Profile box */
+.box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+/* Title */
+.box h2 {
+  margin-bottom: 15px;
+}
+
+/* Text */
+.text {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Logout button */
+.button {
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #b02a37;
+}/* Center page */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef2f7;
+}
+
+/* Profile box */
+.box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+/* Title */
+.box h2 {
+  margin-bottom: 15px;
+}
+
+/* Text */
+.text {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Logout button */
+.button {
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #b02a37;
+}

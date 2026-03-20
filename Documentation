@@ -1,0 +1,86 @@
+# JWT Authentication System
+
+##  Overview
+
+Simple full-stack authentication system using:
+
+* React (Vite)
+* Node.js + Express
+* MongoDB
+* JWT + bcrypt
+
+---
+
+## ⚙️ Setup
+
+### Backend
+
+```bash
+cd server
+npm install
+node server.js
+```
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+---
+
+##  Features
+
+* User Register
+* User Login
+* Password Hashing (bcrypt)
+* JWT Authentication
+* Protected Route (`/profile`)
+
+---
+
+##  Auth Flow
+
+1. User registers → password hashed & stored
+2. User logs in → receives JWT token
+3. Token stored in frontend (localStorage)
+4. Token sent in headers:
+
+```
+Authorization: Bearer <token>
+```
+
+5. Backend verifies token → grants access
+
+---
+
+##  API Routes
+
+* `POST /api/auth/register`
+* `POST /api/auth/login`
+* `GET /profile` (protected)
+
+---
+
+##  Security
+
+* Passwords hashed (bcrypt)
+* JWT with expiration
+* Secrets stored in `.env`
+
+---
+# API Testing
+
+* Postman
+
+##  Tech Used
+
+* Express
+* MongoDB (Mongoose)
+* bcrypt
+* jsonwebtoken
+* React + Vite
+
+
