@@ -7,7 +7,7 @@ function Register() {
   const [password, setPassword] = useState("");
 
   const register = async () => {
-    await axios.post("https://authentication-systems.onrender.com/api/auth/register", {
+    await axios.post("https://authentication-system-1-vioz.onrender.com/api/auth/register", {
       email,
       password,
     });
