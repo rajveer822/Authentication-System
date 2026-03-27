@@ -19,7 +19,12 @@ connectDB();
 
 // middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173", // for local dev
+    "https://authentication-frontend-ky44.onrender.com" // production
+  ]
+}));
 // routes
 app.use("/api/auth", authRoutes);
 
